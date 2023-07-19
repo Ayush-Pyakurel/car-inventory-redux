@@ -1,6 +1,6 @@
 import {
+  addCar,
   changeSearchTerm,
-  addCars,
   removeCar,
   carsReducer,
 } from './slices/carsSlices';
@@ -16,4 +16,4 @@ const store = configureStore({
   },
 });
 
-export { store, changeCost, changeName, addCars, changeSearchTerm, removeCar };
+export { store, changeCost, changeName, addCar, changeSearchTerm, removeCar };
